@@ -1,4 +1,6 @@
 E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/cppCLion.dir
 E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/myfirst.dir
+E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/carrots.dir
+E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/sqrt.dir
 E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

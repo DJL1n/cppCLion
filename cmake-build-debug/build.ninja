@@ -61,6 +61,18 @@ build CMakeFiles/cppCLion.dir/basicGrammar/myfirst.cpp.obj: CXX_COMPILER__cppCLi
   OBJECT_DIR = CMakeFiles\cppCLion.dir
   OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
 
+build CMakeFiles/cppCLion.dir/basicGrammar/carrots.cpp.obj: CXX_COMPILER__cppCLion_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/carrots.cpp || cmake_object_order_depends_target_cppCLion
+  DEP_FILE = CMakeFiles\cppCLion.dir\basicGrammar\carrots.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCLion.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
+
+build CMakeFiles/cppCLion.dir/basicGrammar/sqrt.cpp.obj: CXX_COMPILER__cppCLion_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/sqrt.cpp || cmake_object_order_depends_target_cppCLion
+  DEP_FILE = CMakeFiles\cppCLion.dir\basicGrammar\sqrt.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCLion.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cppCLion
@@ -69,7 +81,7 @@ build CMakeFiles/cppCLion.dir/basicGrammar/myfirst.cpp.obj: CXX_COMPILER__cppCLi
 #############################################
 # Link the executable cppCLion.exe
 
-build cppCLion.exe: CXX_EXECUTABLE_LINKER__cppCLion_Debug CMakeFiles/cppCLion.dir/main.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/myfirst.cpp.obj
+build cppCLion.exe: CXX_EXECUTABLE_LINKER__cppCLion_Debug CMakeFiles/cppCLion.dir/main.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/myfirst.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/carrots.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/sqrt.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cppCLion.dir
@@ -112,6 +124,72 @@ build myfirst.exe: CXX_EXECUTABLE_LINKER__myfirst_Debug CMakeFiles/myfirst.dir/b
   TARGET_IMPLIB = libmyfirst.dll.a
   TARGET_PDB = myfirst.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target carrots
+
+
+#############################################
+# Order-only phony target for carrots
+
+build cmake_object_order_depends_target_carrots: phony || CMakeFiles/carrots.dir
+
+build CMakeFiles/carrots.dir/basicGrammar/carrots.cpp.obj: CXX_COMPILER__carrots_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/carrots.cpp || cmake_object_order_depends_target_carrots
+  DEP_FILE = CMakeFiles\carrots.dir\basicGrammar\carrots.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\carrots.dir
+  OBJECT_FILE_DIR = CMakeFiles\carrots.dir\basicGrammar
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target carrots
+
+
+#############################################
+# Link the executable carrots.exe
+
+build carrots.exe: CXX_EXECUTABLE_LINKER__carrots_Debug CMakeFiles/carrots.dir/basicGrammar/carrots.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\carrots.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = carrots.exe
+  TARGET_IMPLIB = libcarrots.dll.a
+  TARGET_PDB = carrots.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sqrt
+
+
+#############################################
+# Order-only phony target for sqrt
+
+build cmake_object_order_depends_target_sqrt: phony || CMakeFiles/sqrt.dir
+
+build CMakeFiles/sqrt.dir/basicGrammar/sqrt.cpp.obj: CXX_COMPILER__sqrt_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/sqrt.cpp || cmake_object_order_depends_target_sqrt
+  DEP_FILE = CMakeFiles\sqrt.dir\basicGrammar\sqrt.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\sqrt.dir
+  OBJECT_FILE_DIR = CMakeFiles\sqrt.dir\basicGrammar
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sqrt
+
+
+#############################################
+# Link the executable sqrt.exe
+
+build sqrt.exe: CXX_EXECUTABLE_LINKER__sqrt_Debug CMakeFiles/sqrt.dir/basicGrammar/sqrt.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\sqrt.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = sqrt.exe
+  TARGET_IMPLIB = libsqrt.dll.a
+  TARGET_PDB = sqrt.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -138,9 +216,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build carrots: phony carrots.exe
+
 build cppCLion: phony cppCLion.exe
 
 build myfirst: phony myfirst.exe
+
+build sqrt: phony sqrt.exe
 
 # =============================================================================
 # Folder targets.
@@ -150,7 +232,7 @@ build myfirst: phony myfirst.exe
 #############################################
 # Folder: E:/临时/软件学习/cppCLion/cmake-build-debug
 
-build all: phony cppCLion.exe myfirst.exe
+build all: phony cppCLion.exe myfirst.exe carrots.exe sqrt.exe
 
 # =============================================================================
 # Built-in targets
