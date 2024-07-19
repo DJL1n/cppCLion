@@ -79,6 +79,24 @@ build CMakeFiles/cppCLion.dir/basicGrammar/ourfunction1.cpp.obj: CXX_COMPILER__c
   OBJECT_DIR = CMakeFiles\cppCLion.dir
   OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
 
+build CMakeFiles/cppCLion.dir/basicGrammar/limits.cpp.obj: CXX_COMPILER__cppCLion_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/limits.cpp || cmake_object_order_depends_target_cppCLion
+  DEP_FILE = CMakeFiles\cppCLion.dir\basicGrammar\limits.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCLion.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
+
+build CMakeFiles/cppCLion.dir/basicGrammar/hexoct.cpp.obj: CXX_COMPILER__cppCLion_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/hexoct.cpp || cmake_object_order_depends_target_cppCLion
+  DEP_FILE = CMakeFiles\cppCLion.dir\basicGrammar\hexoct.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCLion.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
+
+build CMakeFiles/cppCLion.dir/basicGrammar/fltadd.cpp.obj: CXX_COMPILER__cppCLion_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/fltadd.cpp || cmake_object_order_depends_target_cppCLion
+  DEP_FILE = CMakeFiles\cppCLion.dir\basicGrammar\fltadd.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCLion.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cppCLion
@@ -87,7 +105,7 @@ build CMakeFiles/cppCLion.dir/basicGrammar/ourfunction1.cpp.obj: CXX_COMPILER__c
 #############################################
 # Link the executable cppCLion.exe
 
-build cppCLion.exe: CXX_EXECUTABLE_LINKER__cppCLion_Debug CMakeFiles/cppCLion.dir/main.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/myfirst.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/carrots.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/sqrt.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/ourfunction1.cpp.obj
+build cppCLion.exe: CXX_EXECUTABLE_LINKER__cppCLion_Debug CMakeFiles/cppCLion.dir/main.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/myfirst.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/carrots.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/sqrt.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/ourfunction1.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/limits.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/hexoct.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/fltadd.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cppCLion.dir
@@ -229,6 +247,105 @@ build ourfunction1.exe: CXX_EXECUTABLE_LINKER__ourfunction1_Debug CMakeFiles/our
   TARGET_IMPLIB = libourfunction1.dll.a
   TARGET_PDB = ourfunction1.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target limits
+
+
+#############################################
+# Order-only phony target for limits
+
+build cmake_object_order_depends_target_limits: phony || CMakeFiles/limits.dir
+
+build CMakeFiles/limits.dir/basicGrammar/limits.cpp.obj: CXX_COMPILER__limits_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/limits.cpp || cmake_object_order_depends_target_limits
+  DEP_FILE = CMakeFiles\limits.dir\basicGrammar\limits.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\limits.dir
+  OBJECT_FILE_DIR = CMakeFiles\limits.dir\basicGrammar
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target limits
+
+
+#############################################
+# Link the executable limits.exe
+
+build limits.exe: CXX_EXECUTABLE_LINKER__limits_Debug CMakeFiles/limits.dir/basicGrammar/limits.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\limits.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = limits.exe
+  TARGET_IMPLIB = liblimits.dll.a
+  TARGET_PDB = limits.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hexoct
+
+
+#############################################
+# Order-only phony target for hexoct
+
+build cmake_object_order_depends_target_hexoct: phony || CMakeFiles/hexoct.dir
+
+build CMakeFiles/hexoct.dir/basicGrammar/hexoct.cpp.obj: CXX_COMPILER__hexoct_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/hexoct.cpp || cmake_object_order_depends_target_hexoct
+  DEP_FILE = CMakeFiles\hexoct.dir\basicGrammar\hexoct.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\hexoct.dir
+  OBJECT_FILE_DIR = CMakeFiles\hexoct.dir\basicGrammar
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hexoct
+
+
+#############################################
+# Link the executable hexoct.exe
+
+build hexoct.exe: CXX_EXECUTABLE_LINKER__hexoct_Debug CMakeFiles/hexoct.dir/basicGrammar/hexoct.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\hexoct.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = hexoct.exe
+  TARGET_IMPLIB = libhexoct.dll.a
+  TARGET_PDB = hexoct.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fltadd
+
+
+#############################################
+# Order-only phony target for fltadd
+
+build cmake_object_order_depends_target_fltadd: phony || CMakeFiles/fltadd.dir
+
+build CMakeFiles/fltadd.dir/basicGrammar/fltadd.cpp.obj: CXX_COMPILER__fltadd_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/fltadd.cpp || cmake_object_order_depends_target_fltadd
+  DEP_FILE = CMakeFiles\fltadd.dir\basicGrammar\fltadd.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\fltadd.dir
+  OBJECT_FILE_DIR = CMakeFiles\fltadd.dir\basicGrammar
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fltadd
+
+
+#############################################
+# Link the executable fltadd.exe
+
+build fltadd.exe: CXX_EXECUTABLE_LINKER__fltadd_Debug CMakeFiles/fltadd.dir/basicGrammar/fltadd.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\fltadd.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = fltadd.exe
+  TARGET_IMPLIB = libfltadd.dll.a
+  TARGET_PDB = fltadd.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -259,6 +376,12 @@ build carrots: phony carrots.exe
 
 build cppCLion: phony cppCLion.exe
 
+build fltadd: phony fltadd.exe
+
+build hexoct: phony hexoct.exe
+
+build limits: phony limits.exe
+
 build myfirst: phony myfirst.exe
 
 build ourfunction1: phony ourfunction1.exe
@@ -273,7 +396,7 @@ build sqrt: phony sqrt.exe
 #############################################
 # Folder: E:/临时/软件学习/cppCLion/cmake-build-debug
 
-build all: phony cppCLion.exe myfirst.exe carrots.exe sqrt.exe ourfunction1.exe
+build all: phony cppCLion.exe myfirst.exe carrots.exe sqrt.exe ourfunction1.exe limits.exe hexoct.exe fltadd.exe
 
 # =============================================================================
 # Built-in targets
