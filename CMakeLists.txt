@@ -10,7 +10,9 @@ add_executable(cppCLion main.cpp
         basicGrammar/ourfunction1.cpp
         basicGrammar/limits.cpp
         basicGrammar/hexoct.cpp
-        basicGrammar/fltadd.cpp)
+        basicGrammar/fltadd.cpp
+        basicGrammar/assign.cpp
+        basicGrammar/typecast.cpp)
 
 add_executable(myfirst basicGrammar/myfirst.cpp)
 add_executable(carrots basicGrammar/carrots.cpp)
@@ -19,3 +21,4 @@ add_executable(ourfunction1 basicGrammar/ourfunction1.cpp)
 add_executable(limits basicGrammar/limits.cpp)
 add_executable(hexoct basicGrammar/hexoct.cpp)
 add_executable(fltadd basicGrammar/fltadd.cpp)
+add_executable(typecast basicGrammar/typecast.cpp)
