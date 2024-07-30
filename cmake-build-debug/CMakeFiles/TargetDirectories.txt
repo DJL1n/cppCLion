@@ -6,5 +6,8 @@ E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/ourfunction1.dir
 E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/limits.dir
 E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/hexoct.dir
 E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/fltadd.dir
+E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/typecast.dir
+E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/arrayone.dir
+E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/strings.dir
 E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

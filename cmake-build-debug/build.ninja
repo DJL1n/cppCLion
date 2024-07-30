@@ -97,6 +97,30 @@ build CMakeFiles/cppCLion.dir/basicGrammar/fltadd.cpp.obj: CXX_COMPILER__cppCLio
   OBJECT_DIR = CMakeFiles\cppCLion.dir
   OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
 
+build CMakeFiles/cppCLion.dir/basicGrammar/assign.cpp.obj: CXX_COMPILER__cppCLion_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/assign.cpp || cmake_object_order_depends_target_cppCLion
+  DEP_FILE = CMakeFiles\cppCLion.dir\basicGrammar\assign.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCLion.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
+
+build CMakeFiles/cppCLion.dir/basicGrammar/typecast.cpp.obj: CXX_COMPILER__cppCLion_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/typecast.cpp || cmake_object_order_depends_target_cppCLion
+  DEP_FILE = CMakeFiles\cppCLion.dir\basicGrammar\typecast.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCLion.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
+
+build CMakeFiles/cppCLion.dir/basicGrammar/arrayone.cpp.obj: CXX_COMPILER__cppCLion_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/arrayone.cpp || cmake_object_order_depends_target_cppCLion
+  DEP_FILE = CMakeFiles\cppCLion.dir\basicGrammar\arrayone.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCLion.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
+
+build CMakeFiles/cppCLion.dir/basicGrammar/strings.cpp.obj: CXX_COMPILER__cppCLion_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/strings.cpp || cmake_object_order_depends_target_cppCLion
+  DEP_FILE = CMakeFiles\cppCLion.dir\basicGrammar\strings.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCLion.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cppCLion
@@ -105,7 +129,7 @@ build CMakeFiles/cppCLion.dir/basicGrammar/fltadd.cpp.obj: CXX_COMPILER__cppCLio
 #############################################
 # Link the executable cppCLion.exe
 
-build cppCLion.exe: CXX_EXECUTABLE_LINKER__cppCLion_Debug CMakeFiles/cppCLion.dir/main.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/myfirst.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/carrots.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/sqrt.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/ourfunction1.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/limits.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/hexoct.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/fltadd.cpp.obj
+build cppCLion.exe: CXX_EXECUTABLE_LINKER__cppCLion_Debug CMakeFiles/cppCLion.dir/main.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/myfirst.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/carrots.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/sqrt.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/ourfunction1.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/limits.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/hexoct.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/fltadd.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/assign.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/typecast.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/arrayone.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/strings.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cppCLion.dir
@@ -346,6 +370,105 @@ build fltadd.exe: CXX_EXECUTABLE_LINKER__fltadd_Debug CMakeFiles/fltadd.dir/basi
   TARGET_IMPLIB = libfltadd.dll.a
   TARGET_PDB = fltadd.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target typecast
+
+
+#############################################
+# Order-only phony target for typecast
+
+build cmake_object_order_depends_target_typecast: phony || CMakeFiles/typecast.dir
+
+build CMakeFiles/typecast.dir/basicGrammar/typecast.cpp.obj: CXX_COMPILER__typecast_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/typecast.cpp || cmake_object_order_depends_target_typecast
+  DEP_FILE = CMakeFiles\typecast.dir\basicGrammar\typecast.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\typecast.dir
+  OBJECT_FILE_DIR = CMakeFiles\typecast.dir\basicGrammar
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target typecast
+
+
+#############################################
+# Link the executable typecast.exe
+
+build typecast.exe: CXX_EXECUTABLE_LINKER__typecast_Debug CMakeFiles/typecast.dir/basicGrammar/typecast.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\typecast.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = typecast.exe
+  TARGET_IMPLIB = libtypecast.dll.a
+  TARGET_PDB = typecast.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target arrayone
+
+
+#############################################
+# Order-only phony target for arrayone
+
+build cmake_object_order_depends_target_arrayone: phony || CMakeFiles/arrayone.dir
+
+build CMakeFiles/arrayone.dir/basicGrammar/arrayone.cpp.obj: CXX_COMPILER__arrayone_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/arrayone.cpp || cmake_object_order_depends_target_arrayone
+  DEP_FILE = CMakeFiles\arrayone.dir\basicGrammar\arrayone.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\arrayone.dir
+  OBJECT_FILE_DIR = CMakeFiles\arrayone.dir\basicGrammar
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arrayone
+
+
+#############################################
+# Link the executable arrayone.exe
+
+build arrayone.exe: CXX_EXECUTABLE_LINKER__arrayone_Debug CMakeFiles/arrayone.dir/basicGrammar/arrayone.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\arrayone.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = arrayone.exe
+  TARGET_IMPLIB = libarrayone.dll.a
+  TARGET_PDB = arrayone.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target strings
+
+
+#############################################
+# Order-only phony target for strings
+
+build cmake_object_order_depends_target_strings: phony || CMakeFiles/strings.dir
+
+build CMakeFiles/strings.dir/basicGrammar/strings.cpp.obj: CXX_COMPILER__strings_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/strings.cpp || cmake_object_order_depends_target_strings
+  DEP_FILE = CMakeFiles\strings.dir\basicGrammar\strings.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\strings.dir
+  OBJECT_FILE_DIR = CMakeFiles\strings.dir\basicGrammar
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target strings
+
+
+#############################################
+# Link the executable strings.exe
+
+build strings.exe: CXX_EXECUTABLE_LINKER__strings_Debug CMakeFiles/strings.dir/basicGrammar/strings.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\strings.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = strings.exe
+  TARGET_IMPLIB = libstrings.dll.a
+  TARGET_PDB = strings.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -372,6 +495,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build arrayone: phony arrayone.exe
+
 build carrots: phony carrots.exe
 
 build cppCLion: phony cppCLion.exe
@@ -388,6 +513,10 @@ build ourfunction1: phony ourfunction1.exe
 
 build sqrt: phony sqrt.exe
 
+build strings: phony strings.exe
+
+build typecast: phony typecast.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -396,7 +525,7 @@ build sqrt: phony sqrt.exe
 #############################################
 # Folder: E:/临时/软件学习/cppCLion/cmake-build-debug
 
-build all: phony cppCLion.exe myfirst.exe carrots.exe sqrt.exe ourfunction1.exe limits.exe hexoct.exe fltadd.exe
+build all: phony cppCLion.exe myfirst.exe carrots.exe sqrt.exe ourfunction1.exe limits.exe hexoct.exe fltadd.exe typecast.exe arrayone.exe strings.exe
 
 # =============================================================================
 # Built-in targets
