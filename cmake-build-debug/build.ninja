@@ -127,6 +127,12 @@ build CMakeFiles/cppCLion.dir/basicGrammar/instr2.cpp.obj: CXX_COMPILER__cppCLio
   OBJECT_DIR = CMakeFiles\cppCLion.dir
   OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
 
+build CMakeFiles/cppCLion.dir/basicGrammar/instr3.cpp.obj: CXX_COMPILER__cppCLion_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/instr3.cpp || cmake_object_order_depends_target_cppCLion
+  DEP_FILE = CMakeFiles\cppCLion.dir\basicGrammar\instr3.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCLion.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cppCLion
@@ -135,7 +141,7 @@ build CMakeFiles/cppCLion.dir/basicGrammar/instr2.cpp.obj: CXX_COMPILER__cppCLio
 #############################################
 # Link the executable cppCLion.exe
 
-build cppCLion.exe: CXX_EXECUTABLE_LINKER__cppCLion_Debug CMakeFiles/cppCLion.dir/main.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/myfirst.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/carrots.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/sqrt.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/ourfunction1.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/limits.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/hexoct.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/fltadd.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/assign.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/typecast.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/arrayone.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/strings.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/instr2.cpp.obj
+build cppCLion.exe: CXX_EXECUTABLE_LINKER__cppCLion_Debug CMakeFiles/cppCLion.dir/main.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/myfirst.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/carrots.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/sqrt.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/ourfunction1.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/limits.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/hexoct.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/fltadd.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/assign.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/typecast.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/arrayone.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/strings.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/instr2.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/instr3.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cppCLion.dir
