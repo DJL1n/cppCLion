@@ -133,6 +133,12 @@ build CMakeFiles/cppCLion.dir/basicGrammar/instr3.cpp.obj: CXX_COMPILER__cppCLio
   OBJECT_DIR = CMakeFiles\cppCLion.dir
   OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
 
+build CMakeFiles/cppCLion.dir/basicGrammar/numstr.cpp.obj: CXX_COMPILER__cppCLion_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/numstr.cpp || cmake_object_order_depends_target_cppCLion
+  DEP_FILE = CMakeFiles\cppCLion.dir\basicGrammar\numstr.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCLion.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cppCLion
@@ -141,7 +147,7 @@ build CMakeFiles/cppCLion.dir/basicGrammar/instr3.cpp.obj: CXX_COMPILER__cppCLio
 #############################################
 # Link the executable cppCLion.exe
 
-build cppCLion.exe: CXX_EXECUTABLE_LINKER__cppCLion_Debug CMakeFiles/cppCLion.dir/main.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/myfirst.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/carrots.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/sqrt.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/ourfunction1.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/limits.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/hexoct.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/fltadd.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/assign.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/typecast.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/arrayone.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/strings.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/instr2.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/instr3.cpp.obj
+build cppCLion.exe: CXX_EXECUTABLE_LINKER__cppCLion_Debug CMakeFiles/cppCLion.dir/main.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/myfirst.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/carrots.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/sqrt.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/ourfunction1.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/limits.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/hexoct.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/fltadd.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/assign.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/typecast.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/arrayone.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/strings.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/instr2.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/instr3.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/numstr.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cppCLion.dir
@@ -514,6 +520,72 @@ build instr2.exe: CXX_EXECUTABLE_LINKER__instr2_Debug CMakeFiles/instr2.dir/basi
   TARGET_IMPLIB = libinstr2.dll.a
   TARGET_PDB = instr2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target instr3
+
+
+#############################################
+# Order-only phony target for instr3
+
+build cmake_object_order_depends_target_instr3: phony || CMakeFiles/instr3.dir
+
+build CMakeFiles/instr3.dir/basicGrammar/instr3.cpp.obj: CXX_COMPILER__instr3_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/instr3.cpp || cmake_object_order_depends_target_instr3
+  DEP_FILE = CMakeFiles\instr3.dir\basicGrammar\instr3.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\instr3.dir
+  OBJECT_FILE_DIR = CMakeFiles\instr3.dir\basicGrammar
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target instr3
+
+
+#############################################
+# Link the executable instr3.exe
+
+build instr3.exe: CXX_EXECUTABLE_LINKER__instr3_Debug CMakeFiles/instr3.dir/basicGrammar/instr3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\instr3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = instr3.exe
+  TARGET_IMPLIB = libinstr3.dll.a
+  TARGET_PDB = instr3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target numstr
+
+
+#############################################
+# Order-only phony target for numstr
+
+build cmake_object_order_depends_target_numstr: phony || CMakeFiles/numstr.dir
+
+build CMakeFiles/numstr.dir/basicGrammar/numstr.cpp.obj: CXX_COMPILER__numstr_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/numstr.cpp || cmake_object_order_depends_target_numstr
+  DEP_FILE = CMakeFiles\numstr.dir\basicGrammar\numstr.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\numstr.dir
+  OBJECT_FILE_DIR = CMakeFiles\numstr.dir\basicGrammar
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target numstr
+
+
+#############################################
+# Link the executable numstr.exe
+
+build numstr.exe: CXX_EXECUTABLE_LINKER__numstr_Debug CMakeFiles/numstr.dir/basicGrammar/numstr.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\numstr.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = numstr.exe
+  TARGET_IMPLIB = libnumstr.dll.a
+  TARGET_PDB = numstr.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -552,9 +624,13 @@ build hexoct: phony hexoct.exe
 
 build instr2: phony instr2.exe
 
+build instr3: phony instr3.exe
+
 build limits: phony limits.exe
 
 build myfirst: phony myfirst.exe
+
+build numstr: phony numstr.exe
 
 build ourfunction1: phony ourfunction1.exe
 
@@ -572,7 +648,7 @@ build typecast: phony typecast.exe
 #############################################
 # Folder: E:/临时/软件学习/cppCLion/cmake-build-debug
 
-build all: phony cppCLion.exe myfirst.exe carrots.exe sqrt.exe ourfunction1.exe limits.exe hexoct.exe fltadd.exe typecast.exe arrayone.exe strings.exe instr2.exe
+build all: phony cppCLion.exe myfirst.exe carrots.exe sqrt.exe ourfunction1.exe limits.exe hexoct.exe fltadd.exe typecast.exe arrayone.exe strings.exe instr2.exe instr3.exe numstr.exe
 
 # =============================================================================
 # Built-in targets
