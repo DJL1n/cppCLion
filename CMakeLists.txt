@@ -17,7 +17,8 @@ add_executable(cppCLion main.cpp
         basicGrammar/strings.cpp
         basicGrammar/instr2.cpp
         basicGrammar/instr3.cpp
-        basicGrammar/numstr.cpp)
+        basicGrammar/numstr.cpp
+        basicGrammar/strtype2.cpp)
 
 add_executable(myfirst basicGrammar/myfirst.cpp)
 add_executable(carrots basicGrammar/carrots.cpp)
@@ -32,3 +33,4 @@ add_executable(strings basicGrammar/strings.cpp)
 add_executable(instr2 basicGrammar/instr2.cpp)
 add_executable(instr3 basicGrammar/instr3.cpp)
 add_executable(numstr basicGrammar/numstr.cpp)
+add_executable(strtype2 basicGrammar/strtype2.cpp)
