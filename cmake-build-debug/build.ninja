@@ -151,6 +151,12 @@ build CMakeFiles/cppCLion.dir/basicGrammar/strtype3.cpp.obj: CXX_COMPILER__cppCL
   OBJECT_DIR = CMakeFiles\cppCLion.dir
   OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
 
+build CMakeFiles/cppCLion.dir/basicGrammar/structur.cpp.obj: CXX_COMPILER__cppCLion_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/structur.cpp || cmake_object_order_depends_target_cppCLion
+  DEP_FILE = CMakeFiles\cppCLion.dir\basicGrammar\structur.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCLion.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cppCLion
@@ -159,7 +165,7 @@ build CMakeFiles/cppCLion.dir/basicGrammar/strtype3.cpp.obj: CXX_COMPILER__cppCL
 #############################################
 # Link the executable cppCLion.exe
 
-build cppCLion.exe: CXX_EXECUTABLE_LINKER__cppCLion_Debug CMakeFiles/cppCLion.dir/main.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/myfirst.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/carrots.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/sqrt.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/ourfunction1.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/limits.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/hexoct.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/fltadd.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/assign.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/typecast.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/arrayone.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/strings.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/instr2.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/instr3.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/numstr.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/strtype2.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/strtype3.cpp.obj
+build cppCLion.exe: CXX_EXECUTABLE_LINKER__cppCLion_Debug CMakeFiles/cppCLion.dir/main.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/myfirst.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/carrots.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/sqrt.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/ourfunction1.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/limits.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/hexoct.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/fltadd.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/assign.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/typecast.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/arrayone.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/strings.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/instr2.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/instr3.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/numstr.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/strtype2.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/strtype3.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/structur.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cppCLion.dir
@@ -664,6 +670,39 @@ build strtype3.exe: CXX_EXECUTABLE_LINKER__strtype3_Debug CMakeFiles/strtype3.di
   TARGET_IMPLIB = libstrtype3.dll.a
   TARGET_PDB = strtype3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target structur
+
+
+#############################################
+# Order-only phony target for structur
+
+build cmake_object_order_depends_target_structur: phony || CMakeFiles/structur.dir
+
+build CMakeFiles/structur.dir/basicGrammar/structur.cpp.obj: CXX_COMPILER__structur_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/structur.cpp || cmake_object_order_depends_target_structur
+  DEP_FILE = CMakeFiles\structur.dir\basicGrammar\structur.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\structur.dir
+  OBJECT_FILE_DIR = CMakeFiles\structur.dir\basicGrammar
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target structur
+
+
+#############################################
+# Link the executable structur.exe
+
+build structur.exe: CXX_EXECUTABLE_LINKER__structur_Debug CMakeFiles/structur.dir/basicGrammar/structur.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\structur.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = structur.exe
+  TARGET_IMPLIB = libstructur.dll.a
+  TARGET_PDB = structur.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -720,6 +759,8 @@ build strtype2: phony strtype2.exe
 
 build strtype3: phony strtype3.exe
 
+build structur: phony structur.exe
+
 build typecast: phony typecast.exe
 
 # =============================================================================
@@ -730,7 +771,7 @@ build typecast: phony typecast.exe
 #############################################
 # Folder: E:/临时/软件学习/cppCLion/cmake-build-debug
 
-build all: phony cppCLion.exe myfirst.exe carrots.exe sqrt.exe ourfunction1.exe limits.exe hexoct.exe fltadd.exe typecast.exe arrayone.exe strings.exe instr2.exe instr3.exe numstr.exe strtype2.exe strtype3.exe
+build all: phony cppCLion.exe myfirst.exe carrots.exe sqrt.exe ourfunction1.exe limits.exe hexoct.exe fltadd.exe typecast.exe arrayone.exe strings.exe instr2.exe instr3.exe numstr.exe strtype2.exe strtype3.exe structur.exe
 
 # =============================================================================
 # Built-in targets
