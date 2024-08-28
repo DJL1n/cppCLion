@@ -157,6 +157,12 @@ build CMakeFiles/cppCLion.dir/basicGrammar/structur.cpp.obj: CXX_COMPILER__cppCL
   OBJECT_DIR = CMakeFiles\cppCLion.dir
   OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
 
+build CMakeFiles/cppCLion.dir/basicGrammar/arrstruc.cpp.obj: CXX_COMPILER__cppCLion_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/arrstruc.cpp || cmake_object_order_depends_target_cppCLion
+  DEP_FILE = CMakeFiles\cppCLion.dir\basicGrammar\arrstruc.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCLion.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCLion.dir\basicGrammar
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cppCLion
@@ -165,7 +171,7 @@ build CMakeFiles/cppCLion.dir/basicGrammar/structur.cpp.obj: CXX_COMPILER__cppCL
 #############################################
 # Link the executable cppCLion.exe
 
-build cppCLion.exe: CXX_EXECUTABLE_LINKER__cppCLion_Debug CMakeFiles/cppCLion.dir/main.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/myfirst.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/carrots.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/sqrt.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/ourfunction1.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/limits.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/hexoct.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/fltadd.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/assign.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/typecast.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/arrayone.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/strings.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/instr2.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/instr3.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/numstr.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/strtype2.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/strtype3.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/structur.cpp.obj
+build cppCLion.exe: CXX_EXECUTABLE_LINKER__cppCLion_Debug CMakeFiles/cppCLion.dir/main.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/myfirst.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/carrots.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/sqrt.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/ourfunction1.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/limits.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/hexoct.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/fltadd.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/assign.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/typecast.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/arrayone.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/strings.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/instr2.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/instr3.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/numstr.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/strtype2.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/strtype3.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/structur.cpp.obj CMakeFiles/cppCLion.dir/basicGrammar/arrstruc.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cppCLion.dir
@@ -703,6 +709,39 @@ build structur.exe: CXX_EXECUTABLE_LINKER__structur_Debug CMakeFiles/structur.di
   TARGET_IMPLIB = libstructur.dll.a
   TARGET_PDB = structur.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target arrstruc
+
+
+#############################################
+# Order-only phony target for arrstruc
+
+build cmake_object_order_depends_target_arrstruc: phony || CMakeFiles/arrstruc.dir
+
+build CMakeFiles/arrstruc.dir/basicGrammar/arrstruc.cpp.obj: CXX_COMPILER__arrstruc_unscanned_Debug E$:/临时/软件学习/cppCLion/basicGrammar/arrstruc.cpp || cmake_object_order_depends_target_arrstruc
+  DEP_FILE = CMakeFiles\arrstruc.dir\basicGrammar\arrstruc.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\arrstruc.dir
+  OBJECT_FILE_DIR = CMakeFiles\arrstruc.dir\basicGrammar
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arrstruc
+
+
+#############################################
+# Link the executable arrstruc.exe
+
+build arrstruc.exe: CXX_EXECUTABLE_LINKER__arrstruc_Debug CMakeFiles/arrstruc.dir/basicGrammar/arrstruc.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\arrstruc.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = arrstruc.exe
+  TARGET_IMPLIB = libarrstruc.dll.a
+  TARGET_PDB = arrstruc.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -730,6 +769,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Target aliases.
 
 build arrayone: phony arrayone.exe
+
+build arrstruc: phony arrstruc.exe
 
 build carrots: phony carrots.exe
 
@@ -771,7 +812,7 @@ build typecast: phony typecast.exe
 #############################################
 # Folder: E:/临时/软件学习/cppCLion/cmake-build-debug
 
-build all: phony cppCLion.exe myfirst.exe carrots.exe sqrt.exe ourfunction1.exe limits.exe hexoct.exe fltadd.exe typecast.exe arrayone.exe strings.exe instr2.exe instr3.exe numstr.exe strtype2.exe strtype3.exe structur.exe
+build all: phony cppCLion.exe myfirst.exe carrots.exe sqrt.exe ourfunction1.exe limits.exe hexoct.exe fltadd.exe typecast.exe arrayone.exe strings.exe instr2.exe instr3.exe numstr.exe strtype2.exe strtype3.exe structur.exe arrstruc.exe
 
 # =============================================================================
 # Built-in targets
