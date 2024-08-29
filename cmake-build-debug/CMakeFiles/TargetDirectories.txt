@@ -16,5 +16,7 @@ E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/strtype2.dir
 E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/strtype3.dir
 E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/structur.dir
 E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/arrstruc.dir
+E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/address.dir
+E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/pointer.dir
 E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/临时/软件学习/cppCLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

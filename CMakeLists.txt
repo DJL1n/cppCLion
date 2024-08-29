@@ -22,6 +22,8 @@ add_executable(cppCLion main.cpp
         basicGrammar/strtype3.cpp
         basicGrammar/structur.cpp
         basicGrammar/arrstruc.cpp
+        basicGrammar/address.cpp
+        basicGrammar/pointer.cpp
 )
 
 add_executable(myfirst basicGrammar/myfirst.cpp)
@@ -41,3 +43,5 @@ add_executable(strtype2 basicGrammar/strtype2.cpp)
 add_executable(strtype3 basicGrammar/strtype3.cpp)
 add_executable(structur basicGrammar/structur.cpp)
 add_executable(arrstruc basicGrammar/arrstruc.cpp)
+add_executable(address basicGrammar/address.cpp)
+add_executable(pointer basicGrammar/pointer.cpp)
