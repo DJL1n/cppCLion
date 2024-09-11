@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cppCLion.dir/objects.a
+C:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\ar.exe qc CMakeFiles\cppCLion.dir/objects.a @CMakeFiles\cppCLion.dir\objects1.rsp
+C:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\cppCLion.dir/objects.a -Wl,--no-whole-archive -o cppCLion.exe -Wl,--out-implib,libcppCLion.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cppCLion.dir\linkLibs.rsp

@@ -1,0 +1,242 @@
+[
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\main.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\main.cpp",
+  "file": "E:/临时/软件学习/cppCLion/main.cpp",
+  "output": "CMakeFiles/cppCLion.dir/main.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\myfirst.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\myfirst.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/myfirst.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/myfirst.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\carrots.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\carrots.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/carrots.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/carrots.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\sqrt.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\sqrt.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/sqrt.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/sqrt.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\ourfunction1.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\ourfunction1.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/ourfunction1.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/ourfunction1.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\limits.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\limits.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/limits.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/limits.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\hexoct.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\hexoct.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/hexoct.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/hexoct.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\fltadd.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\fltadd.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/fltadd.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/fltadd.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\assign.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\assign.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/assign.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/assign.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\typecast.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\typecast.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/typecast.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/typecast.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\arrayone.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\arrayone.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/arrayone.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/arrayone.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\strings.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\strings.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/strings.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/strings.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\instr2.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\instr2.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/instr2.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/instr2.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\instr3.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\instr3.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/instr3.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/instr3.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\numstr.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\numstr.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/numstr.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/numstr.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\strtype2.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\strtype2.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/strtype2.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/strtype2.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\strtype3.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\strtype3.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/strtype3.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/strtype3.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\structur.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\structur.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/structur.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/structur.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\arrstruc.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\arrstruc.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/arrstruc.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/arrstruc.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\address.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\address.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/address.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/address.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\cppCLion.dir\\basicGrammar\\pointer.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\pointer.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/pointer.cpp",
+  "output": "CMakeFiles/cppCLion.dir/basicGrammar/pointer.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\myfirst.dir\\basicGrammar\\myfirst.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\myfirst.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/myfirst.cpp",
+  "output": "CMakeFiles/myfirst.dir/basicGrammar/myfirst.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\carrots.dir\\basicGrammar\\carrots.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\carrots.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/carrots.cpp",
+  "output": "CMakeFiles/carrots.dir/basicGrammar/carrots.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\sqrt.dir\\basicGrammar\\sqrt.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\sqrt.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/sqrt.cpp",
+  "output": "CMakeFiles/sqrt.dir/basicGrammar/sqrt.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\ourfunction1.dir\\basicGrammar\\ourfunction1.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\ourfunction1.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/ourfunction1.cpp",
+  "output": "CMakeFiles/ourfunction1.dir/basicGrammar/ourfunction1.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\limits.dir\\basicGrammar\\limits.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\limits.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/limits.cpp",
+  "output": "CMakeFiles/limits.dir/basicGrammar/limits.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\hexoct.dir\\basicGrammar\\hexoct.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\hexoct.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/hexoct.cpp",
+  "output": "CMakeFiles/hexoct.dir/basicGrammar/hexoct.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\fltadd.dir\\basicGrammar\\fltadd.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\fltadd.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/fltadd.cpp",
+  "output": "CMakeFiles/fltadd.dir/basicGrammar/fltadd.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\typecast.dir\\basicGrammar\\typecast.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\typecast.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/typecast.cpp",
+  "output": "CMakeFiles/typecast.dir/basicGrammar/typecast.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\arrayone.dir\\basicGrammar\\arrayone.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\arrayone.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/arrayone.cpp",
+  "output": "CMakeFiles/arrayone.dir/basicGrammar/arrayone.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\strings.dir\\basicGrammar\\strings.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\strings.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/strings.cpp",
+  "output": "CMakeFiles/strings.dir/basicGrammar/strings.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\instr2.dir\\basicGrammar\\instr2.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\instr2.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/instr2.cpp",
+  "output": "CMakeFiles/instr2.dir/basicGrammar/instr2.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\instr3.dir\\basicGrammar\\instr3.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\instr3.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/instr3.cpp",
+  "output": "CMakeFiles/instr3.dir/basicGrammar/instr3.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\numstr.dir\\basicGrammar\\numstr.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\numstr.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/numstr.cpp",
+  "output": "CMakeFiles/numstr.dir/basicGrammar/numstr.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\strtype2.dir\\basicGrammar\\strtype2.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\strtype2.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/strtype2.cpp",
+  "output": "CMakeFiles/strtype2.dir/basicGrammar/strtype2.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\strtype3.dir\\basicGrammar\\strtype3.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\strtype3.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/strtype3.cpp",
+  "output": "CMakeFiles/strtype3.dir/basicGrammar/strtype3.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\structur.dir\\basicGrammar\\structur.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\structur.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/structur.cpp",
+  "output": "CMakeFiles/structur.dir/basicGrammar/structur.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\arrstruc.dir\\basicGrammar\\arrstruc.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\arrstruc.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/arrstruc.cpp",
+  "output": "CMakeFiles/arrstruc.dir/basicGrammar/arrstruc.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\address.dir\\basicGrammar\\address.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\address.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/address.cpp",
+  "output": "CMakeFiles/address.dir/basicGrammar/address.cpp.obj"
+},
+{
+  "directory": "E:/临时/软件学习/cppCLion/build",
+  "command": "C:\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\pointer.dir\\basicGrammar\\pointer.cpp.obj -c E:\\临时\\软件学习\\cppCLion\\basicGrammar\\pointer.cpp",
+  "file": "E:/临时/软件学习/cppCLion/basicGrammar/pointer.cpp",
+  "output": "CMakeFiles/pointer.dir/basicGrammar/pointer.cpp.obj"
+}
+]
