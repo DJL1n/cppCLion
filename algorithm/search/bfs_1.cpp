@@ -1,4 +1,5 @@
 //没有障碍的棋盘上移动
+//这也是演示queue的使用，bfs必须用队列
 #include <bits/stdc++.h>
 using namespace std;
 const int maxn=1000;
