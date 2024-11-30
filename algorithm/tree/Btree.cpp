@@ -68,3 +68,14 @@ bool Leveltraverse(Btree T){//层次遍历
     return true;
 }
 
+Btree pre_mid_createBTree(char *pre,char *mid,int len){//由先序、中序还原建立二叉树
+    if (len==0)
+        return NULL;
+    char ch=pre[0];//先序序列中的第一个节点，作为根
+    int index=0;//在中序序列中查找根节点，并用index记录查找长度
+    while (mid[index]!=ch) index++;//在中序序列中查找根节点，左边为左子树，右边为右子树
+    Btree T=new Bnode;
+    T->data=ch;
+    T->lchild=pre_mid_createBTree(pre+1,mid,index);//创建左子树
+    T->rchild=pre_mid_createBTree(pre+index+1,mid+index+1,len-index-1);//创建右子树
+}
