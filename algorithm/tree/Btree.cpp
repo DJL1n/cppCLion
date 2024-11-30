@@ -50,3 +50,21 @@ void posorder(Btree T){//后续遍历
     }
 }
 
+bool Leveltraverse(Btree T){//层次遍历
+    Btree p;
+    if (!T)
+        return false;
+    queue<Btree> Q;
+    Q.push(T);
+    while (!Q.empty()){
+        p=Q.front();
+        Q.pop();
+        cout<<p->data<<" ";
+        if (p->lchild)
+            Q.push(p->lchild);
+        if (p->rchild)
+            Q.push(p->rchild);
+    }
+    return true;
+}
+
