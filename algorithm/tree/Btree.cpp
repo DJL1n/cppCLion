@@ -79,3 +79,17 @@ Btree pre_mid_createBTree(char *pre,char *mid,int len){//由先序、中序还�
     T->lchild=pre_mid_createBTree(pre+1,mid,index);//创建左子树
     T->rchild=pre_mid_createBTree(pre+index+1,mid+index+1,len-index-1);//创建右子树
 }
+
+
+Btree pro_mid_createBTree(char *last,char *mid,int len){//由后序、中序还原建立二叉树
+    if (len==0)
+        return NULL;
+    char ch=last[len-1];
+    int index=0;
+    while(mid[index]!=ch) index;
+    Btree T=new Bnode;
+    T->data=ch;
+    T->lchild=pro_mid_createBTree(last,mid,index);
+    T->rchild=pro_mid_createBTree(last+index,mid+index+1,len-index-1);
+    return T;
+}
