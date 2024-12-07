@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+//🐔
 string str1,temp;
 int n,m,len;
 vector<int> state;
