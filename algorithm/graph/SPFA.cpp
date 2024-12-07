@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 //Bellman-Ford的队列优化
+//适用于有负权的有环图
 const int maxn=1000;
 
 int n,m,src;

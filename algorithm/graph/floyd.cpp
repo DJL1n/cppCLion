@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+//适用于有向无环图
 const int MaxN=111;
 const int INF=1000000000000;
 int N,g[MaxN][MaxN];

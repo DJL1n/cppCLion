@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+//适用于无负权的有向图
 const int MaxN=1000;
 int dis[MaxN],g[MaxN][MaxN],N;
 bool v[MaxN];
