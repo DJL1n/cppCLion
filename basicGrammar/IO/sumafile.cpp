@@ -18,11 +18,15 @@ int main(){
     double sum=0.0;
     int count=0;
 
-    inFile>>value;
-    while(inFile.good()){
+    // inFile>>value;
+    // while(inFile.good()){
+    //     ++count;
+    //     sum+=value;
+    //     inFile>>value;
+    // }
+    while (inFile>>value){
         ++count;
         sum+=value;
-        inFile>>value;
     }
     if (inFile.eof())
         cout<<"End of file reached.\n";
