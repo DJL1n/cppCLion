@@ -1,4 +1,5 @@
 //使用了优先队列
+//一直取出最小值，再加入优先队列，实现树的生成，直到优先队列中只有一个值
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
