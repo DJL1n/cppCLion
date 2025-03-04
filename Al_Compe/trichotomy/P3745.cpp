@@ -28,6 +28,18 @@ int main(){
     if (C>=1e16){cout<<calc1(t[i])<<end;return 0;}
     ans=1e16;
     int l=1,r=N;
-    while (r-1>2)
+    while (r-1>2){
+        int mid1 = 1+(r-1)/3;   int mid2=r-(r-1)/3;
+        ll c1=calc1(mid1)+calc2(mid1);
+        ll c2=calc1(mid2)+calc2(mid2);
+        if (c1<=c2) r=mid2;
+        else    l=mid1;
+    }
+    for (int i=1;i<=r;i++){
+        ll x=calc1(i)+calc2(i);
+        ans=min(ans,x);
+    }
+
+    cout<<ans<<endl;
     return 0;
 }
